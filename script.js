@@ -35,9 +35,9 @@ function shakeButton() {
   setTimeout(function() {
     randomButton.removeClass("shake");
     if (!stopAnimation) {
-      setTimeout(shakeButton, 1000); // Panggil kembali shakeButton() setelah 1 detik
+      setTimeout(shakeButton, 2000); // Panggil kembali shakeButton() setelah 1 detik
     }
-  }, 1000);
+  }, 2000);
 }
 
 shakeButton();
